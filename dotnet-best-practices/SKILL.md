@@ -120,3 +120,4 @@ Do not introduce a new framework, library, architectural pattern, or naming conv
 - Project only the fields required by the operation when practical.
 - Use no-tracking queries for read-only Entity Framework operations when appropriate.
 - Use bulk update or delete APIs when they preserve required domain behavior, auditing, concurrency handling, and interceptors.
+- Changes to the Entity require updating the configuration for indexes
