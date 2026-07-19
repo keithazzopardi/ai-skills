@@ -15,7 +15,7 @@ Do not introduce a new framework, library, architectural pattern, or naming conv
 - Document behavior, parameters, return values, exceptions, side effects, and important constraints.
 - Avoid comments that merely restate the code. Avoid comments to properties, especially anemic models or DTOs.
 - Preserve existing public API compatibility unless a breaking change is explicitly allowed. Human wil confirm about this.
-- Keep readme.md up to date with newer documetation.
+- Keep readme.md up to date with newer documentation and key decisions.
 
 ## Structure
 - Choose classes, records, structs, record structs, and interfaces according to their semantics.
